@@ -57,21 +57,26 @@ body {
 }
 
 .advertise-card {
-  width: 550px;
+  width: 50%;
   max-width: calc(100vw - 10px);
+  height: 80%;
   border-style: solid;
   border-width: 4px;
   border-color: rgba(19, 15, 80, 2);
   background-color: rgba(255, 255, 255, 0.9);
   border-radius: 15px;
   box-shadow: hsla(0, 0%, 0%, .8) 15px 15px 80px;
-}
+  margin: auto;
+  margin-top: 60px;
+  text-align: center;
+ }
 
 .head {
+  padding: 20px;
 }
 
 .image {
-  
+  display: inline;  
 }
 
 #vat {
@@ -84,30 +89,51 @@ body {
   height: 200px;
 }
 
-.content {
+.links {
+  align-items: center;
 }
 
+.content {
+   padding: 20px;
+ }
+
 .hashtag {
-  text-align: justify;
+  text-align: center;
   font-size: 20px;
+  padding: 20px;
+  color: rgba(19, 15, 80, 2);
+  font-weight: 800;
 }
 
 .text {
+   padding: 5%;
 }
 
 .section {
+   padding: 5%;
 }
 
 p {
 }
 
+a {
+  color: rgba(19, 15, 80, 2);
+}
+
+h2{
+font-weight: 800;
+} 
+
 li {
+ display: inline;
 }
 
 ul {
 }
 
 i {
+   padding: 5%;
+  color: rgba(19, 15, 80, 2);
 }
 
 
